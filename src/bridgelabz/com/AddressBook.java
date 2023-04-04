@@ -9,9 +9,9 @@ public class AddressBook
 
     private Connection getConnection() {
 
-        String URL_JD = "url";
+        String URL_JD = "jdbc:mysql://localhost:3306/payrollService?user=root";
         String USER_NAME = "root";
-        String PASSWORD = "ntg@12345";
+        String PASSWORD = "Arun@12345";
 
         Connection connection = null;
         try {
@@ -24,6 +24,7 @@ public class AddressBook
         }
         return connection;
     }
+
 
     public List<Contacts> retrieveData() {
         ResultSet resultSet = null;
@@ -54,5 +55,18 @@ public class AddressBook
         }
         return addressBookList;
 
+    }
+    public void updateCityByZip(String address, String city, String state, int zip, int srNo) {
+        try (Connection connection = getConnection()) {
+            Statement statement = connection.createStatement();
+            String query = "Update addressBook set address=" + "'" + address + "'" + ", " + "city=" + "'" + city + "'" + ", " + "state=" + "'" + state + "'" + ", " + "zip=" + zip + " where srNo=" + srNo + ";";
+            int result = statement.executeUpdate(query);
+            System.out.println(result);
+            if (result > 0) {
+                System.out.println("Address Updated Successfully");
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 }

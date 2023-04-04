@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1373e90d-b170-4066-ab14-050f2fb12a13" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgelabz/com/AddressBookMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bridgelabz/com/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridgelabz/com/AddressBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bridgelabz/com/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridgelabz/com/Contacts.java" afterDir="false" />
@@ -45,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RUN">
     <configuration name="RUN" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/corretto-19.0.2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -75,6 +75,18 @@
       <option name="presentableId" value="Default" />
       <updated>1680375733577</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added : Ability for the AddressBook Service to rerieve all the Entries from the DB">
+      <created>1680628059043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680628059043</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added : Ability for the AddressBook Service to rerieve all the Entries from the DB" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Ability for the AddressBook Service to rerieve all the Entries from the DB" />
   </component>
 </project>

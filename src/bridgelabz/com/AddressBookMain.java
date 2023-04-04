@@ -1,7 +1,9 @@
+package bridgelabz.com;
+
 
 import java.util.*;
 
-public class Main
+public class AddressBookMain
 {
     static Scanner scanner = new Scanner(System.in);
 
