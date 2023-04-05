@@ -9,9 +9,9 @@ public class AddressBook
 
     private Connection getConnection() {
 
-        String URL_JD = "jdbc:mysql://localhost:3306/payrollService?user=root";
+        String URL_JD = "url";
         String USER_NAME = "root";
-        String PASSWORD = "Arun@12345";
+        String PASSWORD = "ntg@12345";
 
         Connection connection = null;
         try {
